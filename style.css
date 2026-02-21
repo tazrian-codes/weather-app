@@ -55,7 +55,7 @@
 }
 
 .footer{
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -63,9 +63,34 @@
   width: 80%;
 }
 
+.general-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  width: 80%;
+  margin: 100px 0;
+}
+
+.general-footer img{
+  width: 150px;
+  opacity: 70%;
+}
+
+.general-footer h4{
+  text-align: center;
+  font-size: 1rem;
+  color: #ddd;
+  opacity: 70%;
+}
 .footer span, h4{
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+.footer #cityName {
+  text-align: center;
 }
 
 .footer #dateNow{
@@ -73,7 +98,7 @@
   margin-bottom: 20px;
 }
 
-.footer .main-img{
+.footer #main-img{
   width: 130px;
   margin-bottom: 10px;
 }
@@ -98,20 +123,11 @@
 
 .others span{
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 
-.others p{
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-
-.humidity img{
+.wind img, .humidity img{
   width: 25px;
-}
-
-.wind img{
-  width: 30px;
 }
 
 .wind-header, .humidity-header{
